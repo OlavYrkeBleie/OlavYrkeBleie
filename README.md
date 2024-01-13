@@ -16,7 +16,9 @@ Building software for logistics and industrial operations.
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -36,7 +38,9 @@ Building software for logistics and industrial operations.
 | Project | Stack | Description |
 |---------|-------|-------------|
 | **Logistics & Supply Chain Platform** | `Rust` `PostgreSQL` | Multi-tenant TMS/WMS with real-time carrier integration and route optimization |
+| **Pipeline Monitoring & Anomaly Detection** | `C++` `Python` | SCADA-adjacent sensor ingestion and pressure/flow alerting for oil & gas |
 | **Fleet Management System** | `Java` `Spring Boot` `PostgreSQL` | Vehicle telemetry, maintenance scheduling, and fuel analytics |
 | **ERP Integration Layer** | `C#` `.NET` `RabbitMQ` | Event-driven middleware connecting ERP, WMS, and accounting systems |
+| **Private Network Infrastructure** | `Linux` `WireGuard` `Rust` | Self-hosted SMB file server with VPN mesh and AES-256 encryption |
 
 *All repositories are private. Work is conducted under O.B Yrke ENK.*
