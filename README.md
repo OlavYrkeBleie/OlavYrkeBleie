@@ -22,6 +22,7 @@ Building infrastructure software for logistics, energy, and industrial operation
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -55,4 +56,7 @@ Building infrastructure software for logistics, energy, and industrial operation
 | **Port Terminal Management System** | `Java` `C++` `Oracle DB` | Berth scheduling, vessel queuing, cargo manifest processing, and crane allocation |
 | **Cold Chain Monitoring** | `C++` `Rust` | End-to-end temperature and humidity tracking across refrigerated transport |
 | **Maritime AIS Vessel Tracker** | `Go` `PostgreSQL` | Real-time AIS feed ingestion, vessel position history, and ETA prediction |
+| **Predictive Maintenance Platform** | `Python` `C++` `TimescaleDB` | Vibration and thermal sensor fusion for industrial machinery failure scoring |
 | **Customs & Trade Compliance Engine** | `C#` `Java` `PostgreSQL` | HS code classification, duty calculation, and automated declaration generation |
+| **Rail & Intermodal Logistics Platform** | `Java` `Kafka` `PostgreSQL` | Wagon tracking, intermodal booking, and rail/road handoff coordination |
+| **Warehouse Automation Controller** | `C++` `C#` `RabbitMQ` | PLC integration, conveyor sequencing, and real-time throughput monitoring |
