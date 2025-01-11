@@ -2,7 +2,7 @@
 
 # OlavYrkeBleie
 
-**Software Developer**
+**Fullstack Developer**
 
 Building infrastructure software for logistics, energy, and industrial operations.
 
@@ -30,6 +30,9 @@ Building infrastructure software for logistics, energy, and industrial operation
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=flat-square&logo=influxdb&logoColor=white)
 
 </div>
 
@@ -39,11 +42,11 @@ Building infrastructure software for logistics, energy, and industrial operation
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| **Logistics & Supply Chain Platform** | `Rust` `PostgreSQL` `gRPC` | Multi-tenant TMS/WMS with real-time carrier integration and route optimization |
-| **Pipeline Monitoring & Anomaly Detection** | `C++` `Python` | SCADA-adjacent sensor ingestion and pressure/flow alerting for oil & gas |
-| **Fleet Management System** | `Java` `Spring Boot` `PostgreSQL` | Vehicle telemetry, maintenance scheduling, and fuel analytics |
-| **ERP Integration Layer** | `C#` `.NET` `RabbitMQ` | Event-driven middleware connecting ERP, WMS, and accounting systems |
-| **Private Network Infrastructure** | `Linux` `WireGuard` `Rust` | Self-hosted SMB file server with VPN mesh and AES-256 encryption |
+| **Logistics & Supply Chain Platform** | `Rust` `PostgreSQL` `gRPC` | Multi-tenant TMS/WMS with real-time carrier integration, route optimization, and customs compliance |
+| **Pipeline Monitoring & Anomaly Detection** | `C++` `Python` `InfluxDB` | SCADA-adjacent sensor ingestion, pressure/flow threshold alerting, and anomaly classification for oil & gas |
+| **Fleet Management System** | `Java` `Spring Boot` `PostgreSQL` | Vehicle telemetry, maintenance scheduling, driver compliance, and fuel analytics across distributed fleets |
+| **ERP Integration Layer** | `C#` `.NET` `RabbitMQ` | Event-driven middleware connecting ERP, WMS, and accounting systems via typed message contracts |
+| **Private Network Infrastructure** | `Linux` `WireGuard` `Samba` `Rust` | Self-hosted SMB file server with VPN mesh, AES-256 encryption, and zero-trust access control |
 
 *All repositories are private. Work is conducted under O.B Yrke ENK.*
 
@@ -53,10 +56,13 @@ Building infrastructure software for logistics, energy, and industrial operation
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| **Port Terminal Management System** | `Java` `C++` `Oracle DB` | Berth scheduling, vessel queuing, cargo manifest processing, and crane allocation |
-| **Cold Chain Monitoring** | `C++` `Rust` | End-to-end temperature and humidity tracking across refrigerated transport |
-| **Maritime AIS Vessel Tracker** | `Go` `PostgreSQL` | Real-time AIS feed ingestion, vessel position history, and ETA prediction |
-| **Predictive Maintenance Platform** | `Python` `C++` `TimescaleDB` | Vibration and thermal sensor fusion for industrial machinery failure scoring |
-| **Customs & Trade Compliance Engine** | `C#` `Java` `PostgreSQL` | HS code classification, duty calculation, and automated declaration generation |
-| **Rail & Intermodal Logistics Platform** | `Java` `Kafka` `PostgreSQL` | Wagon tracking, intermodal booking, and rail/road handoff coordination |
-| **Warehouse Automation Controller** | `C++` `C#` `RabbitMQ` | PLC integration, conveyor sequencing, and real-time throughput monitoring |
+| **Port Terminal Management System** | `Java` `C++` `Oracle DB` | Berth scheduling, vessel queuing, cargo manifest processing, and crane allocation for bulk terminal operations |
+| **Cold Chain Monitoring** | `C++` `Rust` `InfluxDB` | End-to-end temperature and humidity tracking across refrigerated transport, with regulatory audit trail export |
+| **Maritime AIS Vessel Tracker** | `Go` `PostgreSQL` `Kafka` | Real-time AIS feed ingestion, vessel position history, geofencing alerts, and ETA prediction |
+| **Predictive Maintenance Platform** | `Python` `C++` `TimescaleDB` | Vibration, pressure, and thermal sensor fusion for industrial machinery — failure probability scoring and work order triggers |
+| **Customs & Trade Compliance Engine** | `C#` `Java` `PostgreSQL` | HS code classification, duty calculation, and automated declaration generation for cross-border freight |
+| **Tank Farm Management System** | `C++` `Modbus/TCP` `InfluxDB` | Level gauging, custody transfer metering, valve control integration, and ATEX-rated alarm handling for petroleum storage |
+| **Rail & Intermodal Logistics Platform** | `Java` `Kafka` `PostgreSQL` | Wagon tracking, intermodal booking, load planning, and rail/road handoff coordination |
+| **Asset Integrity Management** | `Rust` `Python` `PostgreSQL` | Inspection scheduling, corrosion data modeling, regulatory reporting, and defect lifecycle tracking for offshore assets |
+| **Warehouse Automation Controller** | `C++` `C#` `RabbitMQ` | PLC integration, conveyor sequencing, pick-and-place coordination, and real-time throughput monitoring |
+| **Encrypted Document Exchange** | `Rust` `Go` `AES-256` `mTLS` | Secure B2B document transfer with end-to-end encryption, certificate-based auth, and immutable audit logging |
