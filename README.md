@@ -66,3 +66,16 @@ Building infrastructure software for logistics, energy, and industrial operation
 | **Asset Integrity Management** | `Rust` `Python` `PostgreSQL` | Inspection scheduling, corrosion data modeling, regulatory reporting, and defect lifecycle tracking for offshore assets |
 | **Warehouse Automation Controller** | `C++` `C#` `RabbitMQ` | PLC integration, conveyor sequencing, pick-and-place coordination, and real-time throughput monitoring |
 | **Encrypted Document Exchange** | `Rust` `Go` `AES-256` `mTLS` | Secure B2B document transfer with end-to-end encryption, certificate-based auth, and immutable audit logging |
+
+---
+
+## Areas
+
+```
+Transport & Logistics      →  TMS, WMS, port terminals, intermodal, customs, route planning
+Oil & Gas Infrastructure   →  Pipeline telemetry, SCADA integration, anomaly detection, tank farms
+Fleet & Maritime           →  Telematics, AIS tracking, compliance, maintenance, fuel management
+Enterprise Systems         →  ERP connectors, event-driven architecture, data migration
+Industrial Automation      →  PLC integration, conveyor control, predictive maintenance
+Network & Security         →  VPN mesh, mTLS, AES-256 encryption, zero-trust networking
+```
