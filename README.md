@@ -1,6 +1,6 @@
 <div align="center">
 
-# OlavYrkeBleie
+# OlavYB
 
 **Fullstack Developer**
 
@@ -79,3 +79,17 @@ Enterprise Systems         →  ERP connectors, event-driven architecture, data 
 Industrial Automation      →  PLC integration, conveyor control, predictive maintenance
 Network & Security         →  VPN mesh, mTLS, AES-256 encryption, zero-trust networking
 ```
+
+---
+
+## Languages
+
+| Language | Primary Use |
+|----------|-------------|
+| Rust | Systems programming, encrypted transport, performance-critical services |
+| C++ | Sensor processing, PLC/Modbus integration, embedded control systems |
+| C# / .NET | Enterprise integrations, Windows services, ERP and customs middleware |
+| Java | Backend platforms, logistics and fleet systems, event-driven services |
+| Go | Network tooling, AIS/telemetry pipelines, lightweight microservices |
+| Python | Data pipelines, anomaly detection models, scripting |
+| TypeScript | Operational dashboards, internal tooling, web-based control interfaces |
