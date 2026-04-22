@@ -1,8 +1,8 @@
 <div align="center">
 
-# Olav Bleie
+# OlavYB
 
-**Systems Engineer · Oslo, Norway**
+**Fullstack Developer**
 
 Building infrastructure software for logistics, energy, and industrial operations.
 
