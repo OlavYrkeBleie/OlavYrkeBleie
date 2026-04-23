@@ -94,3 +94,5 @@ Network & Security         →  VPN mesh, mTLS, AES-256 encryption, zero-trust n
 | Python | Data pipelines, anomaly detection models, scripting |
 | TypeScript | Operational dashboards, internal tooling, web-based control interfaces |
 
+
+MIT License
