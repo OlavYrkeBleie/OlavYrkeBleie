@@ -1,6 +1,6 @@
 <div align="center">
 
-# OlavYB
+# Olav Yrke Bleie
 
 **Fullstack Developer**
 
